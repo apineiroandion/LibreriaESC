@@ -44,7 +44,7 @@ public class Operacion {
             case DIVISION:
                 return num1 / num2;
             case RAIZ:
-                return (float) Math.pow(num1, num2);
+                return (float) Math.pow(num1, 1.0/num2);
             default:
                 return null;
         }
